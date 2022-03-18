@@ -35,3 +35,4 @@ jobs:
       - name: Deploying using surge
         run: surge ./ ehsan_portfolio.surge.sh --token ${{ secrets.SURGE_TOKEN }}
         
+{{
