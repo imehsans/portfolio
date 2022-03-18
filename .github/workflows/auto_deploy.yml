@@ -33,5 +33,5 @@ jobs:
       - name: Installing surge
         run: npm install -g surge
       - name: Deploying using surge
-        run: surge ./ mehsanjadoon_portfolio.surge.sh --token $ {{ secrets.SURGE_TOKEN }}
+        run: surge ./ ehsan_portfolio.surge.sh --token ${{ secrets.SURGE_TOKEN }}
         
